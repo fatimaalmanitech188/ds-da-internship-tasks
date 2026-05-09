@@ -4,7 +4,7 @@
 - Institution: Shaheed Zulifiqar Ali Bhutto Institude of Science and Technology(SZABIST)
 
 
- Task 1: Exploring and Visualizing the Iris Dataset
+** Task 1: Exploring and Visualizing the Iris Dataset**
 
  Objective
 To understand how to read, summarize, and visualize
@@ -28,8 +28,7 @@ Approach
 - Versicolor falls between Setosa and Virginica
 - Box plot revealed outliers in Sepal Width
 
-
-Task 2: Credit Risk Prediction
+**Task 2: Credit Risk Prediction**
 
  Objective
 Predict whether a loan applicant is likely
@@ -54,7 +53,7 @@ Results and Insights
   higher approval
 
 
- ✅ Task 3: Customer Churn Prediction
+**  Task 3: Customer Churn Prediction**
 
  Objective
 Identify customers who are likely to leave the bank.
@@ -77,7 +76,7 @@ Approach
 - Active members were less likely to churn
 
 
-## ✅ Task 4: Predicting Insurance Claim Amounts
+** Task 4: Predicting Insurance Claim Amounts**
 
  Objective
 Estimate medical insurance charges based
