@@ -76,25 +76,6 @@ Approach
 - Active members were less likely to churn
 
 Intership Task(2)
-Task 1 :
-# Data Science & Data Analytics Internship Task 2
-
-### Task 1: Credit Risk Prediction
-* **Objective:** Predict if a loan applicant is likely to default.
-* **Dataset:** Loan Prediction Dataset (Kaggle)
-* **Approach:**
-  * Cleaned missing data using mode (for text) and median (for numbers).
-  * Visualized key factors: Loan Amount, Income, Education, and Marital Status.
-  * Trained a **Logistic Regression** model.
-  * Evaluated using **Accuracy** and a **Confusion Matrix**.
-* **Results & Insights:**
-  * **Model Accuracy:** ~83.3%
-  * **Credit history** was the strongest predictor of loan approval.
-  * Married applicants had higher approval rates.
-  * Graduates earned more money, but did not always get approved more often.
-
----
-
 ## 🚀 Advanced Task Set
 
 ### Task 1: Term Deposit Subscription Prediction
