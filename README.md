@@ -3,7 +3,7 @@
 - Internship: Data Science & Data Analytics
 - Institution: Shaheed Zulifiqar Ali Bhutto Institude of Science and Technology(SZABIST)
 
-
+(Internship Task)
  Task 1: Exploring and Visualizing the Iris Dataset
 
  Objective
@@ -75,58 +75,54 @@ Approach
 - Customers from Germany showed higher churn rates
 - Active members were less likely to churn
 
+Intership Task(2)
+Task 1 :
+# Data Science & Data Analytics Internship Task 2
 
-Task 4: Predicting Insurance Claim Amounts 
+### Task 1: Credit Risk Prediction
+* **Objective:** Predict if a loan applicant is likely to default.
+* **Dataset:** Loan Prediction Dataset (Kaggle)
+* **Approach:**
+  * Cleaned missing data using mode (for text) and median (for numbers).
+  * Visualized key factors: Loan Amount, Income, Education, and Marital Status.
+  * Trained a **Logistic Regression** model.
+  * Evaluated using **Accuracy** and a **Confusion Matrix**.
+* **Results & Insights:**
+  * **Model Accuracy:** ~83.3%
+  * **Credit history** was the strongest predictor of loan approval.
+  * Married applicants had higher approval rates.
+  * Graduates earned more money, but did not always get approved more often.
 
- Objective
-Estimate medical insurance charges based
-on personal data.
+---
 
-Dataset
-- Name: Medical Cost Personal Dataset
-- Source: Kaggle
+## 🚀 Advanced Task Set
 
- Approach
-- Encoded sex/gender, smoker, and region columns
-- Visualized Age, BMI, and Smoker vs Charges
-- Trained Linear Regression model
-- Evaluated using MAE and RMSE
+### Task 1: Term Deposit Subscription Prediction
+* **Objective:** Predict if a customer will sign up for a bank term deposit after a marketing campaign.
+* **Dataset:** Bank Marketing Dataset (UCI Repository)
+* **What I Did / Will Do:**
+  * Explore the data and encode categorical features.
+  * Train **Logistic Regression** and **Random Forest** models.
+  * Evaluate using Confusion Matrix, F1-Score, and ROC Curve.
+  * Use **SHAP / LIME** to explain 5 specific model decisions.
+* **Skills:** Classification modeling, feature encoding, and explainable AI (XAI).
 
- Results and Insights
-- Smoker status had the highest impact on charges
-- BMI combined with smoking dramatically
-  increases charges
-- Age has a steady positive correlation
-  with charges
-- Non-smokers clustered at much lower
-  charge amounts
+### Task 2: Customer Segmentation
+* **Objective:** Group customers based on their spending habits to suggest tailored marketing strategies.
+* **Dataset:** Mall Customers Dataset
+* **What I Did / Will Do:**
+  * Conduct Exploratory Data Analysis (EDA).
+  * Apply **K-Means Clustering** to segment the customers.
+  * Use **PCA or t-SNE** to visualize the customer clusters.
+  * Propose specific marketing ideas for each customer group.
+* **Skills:** Unsupervised learning (clustering) and data-driven marketing strategy.
 
-
-Task 5: Personal Loan Acceptance Prediction
-
-Objective
-Predict which customers are likely to accept
-a personal loan offer.
-
- Dataset
-- Name: Bank Marketing Dataset
-- Source: Kaggle
-
- Approach
-- Explored age, job, marital status features
-- Created 6 EDA visualizations
-- Trained both Logistic Regression and
-  Decision Tree models
-- Compared models using ROC Curve and AUC scores
-- Extracted business insights from results
-
- Results and Insights
-- Students and retired customers had highest
-  acceptance rates
-- Single customers accepted more than
-  married customers
-- Higher account balance linked to
-  higher acceptance
-- Duration of last contact was strongest
-  predictor of acceptance
+### Task 3: Energy Consumption Time Series Forecasting
+* **Objective:** Forecast short-term household energy use using historical data patterns.
+* **Dataset:** Household Power Consumption Dataset
+* **What I Did / Will Do:**
+  * Organize data by time and create time-based features (hours, weekdays).
+  * Compare three forecasting models: **ARIMA**, **Prophet**, and **XGBoost**.
+  * Evaluate using error metrics (MAE, RMSE) and plot actual vs. predicted usage.
+* **Skills:** Time series forecasting and feature engineering.
 
